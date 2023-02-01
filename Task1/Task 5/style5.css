@@ -1,0 +1,35 @@
+.container {
+    width: 550px;
+    height: 550px;
+  }
+  .frame {
+    width: 600px;
+    height: 380px;
+    padding: 30px;
+    background-color: #1f1e1e;
+    margin: auto;
+  }
+  .divider {
+    border-bottom: 10px solid #55a7a7;
+    width: 250px;;
+    height: 20px;
+    margin-bottom: 23px;
+    margin-left: 170px;
+    margin-top: -10px;
+
+
+  }
+  .ten, .nine, .eight, .seven, .six, .five, .four, .three, .two, .one{
+    color: whitesmoke;
+    font-family: sans-serif;
+    letter-spacing: 30px;
+    text-align: center;
+    margin-left: 35px;
+    margin-bottom: 30%;
+  }
+  .ten, .one{
+    margin-top: -10px;
+  }
+  .sample h3:not(.no-divider) {
+    border-bottom: 10px solid #55a7a7;
+  }

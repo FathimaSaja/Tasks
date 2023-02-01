@@ -1,0 +1,21 @@
+.container{
+  width: 550px;
+  height: 300px;
+  background-color: #e6dad7;
+  overflow: hidden;
+}
+.frame {
+    width: 500px;
+    padding: 50px;
+    margin: 20px auto;
+}
+.image img{
+    width: 100%;
+    max-width: 75px;
+    margin-top: 20%;
+    margin-left: 390px;
+}
+.image{
+    display: flex;
+    justify-content: center;
+}

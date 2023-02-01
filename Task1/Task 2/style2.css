@@ -1,0 +1,43 @@
+@font-face {
+    font-family: "SofiaSansExtraCondensed";
+    src: url(./font/SofiaSansExtraCondensed-Italic-VariableFont_wght.ttf);
+}
+@font-face {
+    font-family: "Explora-Regular";
+    src: url(./font/Explora-Regular.ttf)
+}
+@font-face {
+     font-family: "Itim-Regular";
+     src: url(./font/Itim-Regular.ttf)
+}
+@font-face{
+    font-family: "PlayfairDisplay-Italic-VariableFont_wght";
+    src: url(./font/PlayfairDisplay-Italic-VariableFont_wght.ttf)
+}
+@font-face {
+    font-family: "RobotoMono-VariableFont_wght";
+    src: url(./font/RobotoMono-VariableFont_wght.ttf);
+}
+@font-face {
+    font-family: "Unbounded-VariableFont_wght";
+    src: url(./font/Unbounded-VariableFont_wght.ttf);
+}
+h1{
+    font-family: "SofiaSansExtraCondensed";
+}
+h2{
+    font-family: "Explora-Regular";
+}
+h3{
+    font-family: "Itim-Regular";
+}
+h4{
+    font-family: "PlayfairDisplay-Italic-VariableFont_wght";
+}
+h5{
+    font-family: "RobotoMono-VariableFont_wght";
+}
+h6{
+    font-family: "Unbounded-VariableFont_wght";
+    color: 
+}
