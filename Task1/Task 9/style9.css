@@ -1,0 +1,25 @@
+table{
+    table-layout: auto;
+    text-align: center;
+    margin: auto;
+    border: 2px solid black;
+    width: 50%;
+    font-size: 20px;
+    
+}
+*{
+    margin-top: 5%;
+}
+th, td{
+    border: 2px solid black;
+    
+}
+.beige{
+    background-color: rgb(245, 213, 191);
+}
+.blue{
+    background-color: rgb(170, 205, 245);
+}
+.green{
+    background-color: rgb(160, 243, 215);
+}

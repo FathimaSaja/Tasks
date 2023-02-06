@@ -1,0 +1,15 @@
+table{
+    text-align: center;
+    margin: auto;
+    border: 2px solid black;
+    width: 50%;
+    font-size: 20px;
+    border-collapse: collapse ;
+}
+th, td{
+    border: 2px solid black;
+    
+}
+h3{
+    text-align: center;
+}
