@@ -1,0 +1,99 @@
+@font-face {
+    font-family: "RobotoMono-VariableFont_wght";
+    src: url(./Font/RobotoMono-VariableFont_wght.ttf);
+}
+
+body {
+    overflow: hidden;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    margin: auto;
+    margin-top: 80px;
+    border: 1px solid rgb(255, 255, 255);
+    max-width: 800px;
+    box-shadow: 0 0 30px -2px #d3cdcd;
+
+}
+
+.left {
+    width: 50%;
+    float: left;
+}
+
+.right {
+    width: 50%;
+    float: right;
+    margin-top: 30px;
+    background-color: #fff;
+}
+
+img {
+    width: 400px;
+    min-height: 450px;
+
+}
+
+hr {
+    margin-top: -10px;
+    width: 60px;
+    border: 1px solid rgba(168, 153, 236, 0.596);
+
+}
+
+.right>* {
+    font-family: "RobotoMono-VariableFont_wght";
+    display: block;
+    margin-left: 25%;
+    margin-bottom: 10px;
+}
+
+.uname,
+.password {
+    display: block;
+    width: 200px;
+    padding: 4px;
+    border: 1px solid rgb(172, 153, 153);
+    border-radius: 15px;
+    margin-top: 5px;
+
+}
+
+.checkbox {
+    font-size: 10px;
+}
+
+.button {
+    width: 209px;
+    padding: 4px;
+    border-radius: 15px;
+    background-color: rgba(168, 153, 236, 0.596);
+    border: 1px solid rgba(168, 153, 236, 0.596);
+}
+
+h5 {
+    padding: 25px;
+    margin-top: 40px;
+    margin-left: 40px;
+    font-size: x-small;
+}
+
+p {
+    font-size: 10px;
+}
+
+a {
+    color: rgba(32, 27, 58, 0.596);
+}
+
+.fa-brands {
+    display: inline;
+    font-size: x-large;
+    margin-right: 20px;
+}
+
+.fa-facebook {
+    margin-left: 10px;
+}
