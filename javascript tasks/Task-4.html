@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Friends</title>
+</head>
+
+<body>
+    <ul>
+        <label>
+            <li onclick="changeColor(this)">Ayesha</li>
+        </label>
+        <label>
+            <li onclick="changeColor(this)">Farzana</li>
+        </label>
+        <label>
+            <li onclick="changeColor(this)">Iman</li>
+        </label>
+        <label>
+            <li onclick="changeColor(this)">Hassim</li>
+        </label>
+        <label>
+            <li onclick="changeColor(this)">Arsha</li>
+        </label>
+        <label>
+            <li onclick="changeColor(this)">Oliviya</li>
+        </label>
+        <label>
+            <li onclick="changeColor(this)">Pavi</li>
+        </label>
+        <label>
+            <li onclick="changeColor(this)">Zara</li>
+        </label>
+        <label>
+            <li onclick="changeColor(this)">Iniya</li>
+        </label>
+        <label>
+            <li onclick="changeColor(this)">Shanu</li>
+        </label>
+
+    </ul>
+    <script>
+
+        function changeColor(elem) {
+            let fLetter = elem.innerHTML[0];
+            if (fLetter == 'A' || fLetter == 'E' || fLetter == 'I' || fLetter == 'O' || fLetter == 'U') {
+                elem.style.background = "red";
+            }
+            else {
+                elem.style.background = "green";
+            }
+        }
+    </script>
+</body>
+
+</html>
